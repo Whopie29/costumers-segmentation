@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv("C:\\Users\Gaura\Documents\COLLEGE\PYTHON WORKSHOP\Mall_Customers.csv")
+df = pd.read_csv("add a location where u saved ur dataset")
 df.head()
 
 df.drop(["CustomerID"], axis = 1, inplace=True)
